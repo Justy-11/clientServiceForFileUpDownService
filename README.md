@@ -2,7 +2,7 @@
 
 :handshake: client service for [FileOperationsSprinboot](https://github.com/Justy-11/fileOperationsSpringboot) 
 
-Using the Spring RestTemplate to communicate with RESTful web service [FileOperationsSprinboot](https://github.com/Justy-11/fileOperationsSpringboot) located at a specified baseUrl.
+* Using the Spring RestTemplate to communicate with RESTful web service [FileOperationsSprinboot](https://github.com/Justy-11/fileOperationsSpringboot) located at a specified baseUrl.
 
 📂 The first endpoint, "/getAndSave/{fileName}", retrieves a file from the fileUploadDownload service located at the baseUrl + "/download/" + fileName, and saves it to a temporary directory in the client service using the Resource and Files classes from the Java NIO library.
 
